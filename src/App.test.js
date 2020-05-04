@@ -1,9 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import App from './App';
+import HeaderLayout from './components/header';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
+//sample test to test header text exist
+test('renders', () => {
+  const { getByText } = render(<HeaderLayout />);
+  const linkElement = getByText(/Tweetonomics/i);
   expect(linkElement).toBeInTheDocument();
 });
