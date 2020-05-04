@@ -1,4 +1,4 @@
-Visulizing the corealation of CEO tweet with share price trend of company,
+Visualizing the correlation of CEO tweet with share price trend of company,
 Starting the v1 with Elon 🔥 Tesla.
 
 ## Available Scripts
